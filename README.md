@@ -1,19 +1,19 @@
-# 🕷️ OLX Scraper using Scrapy
+#  OLX Scraper using Scrapy
 
 Projekt do scrapowania ogłoszeń ze strony [OLX.pl](https://www.olx.pl) przy użyciu frameworka [Scrapy](https://scrapy.org/) w Pythonie.
 
-## 🚀 Funkcje
+##  Funkcje
 
 - Pobieranie danych z OLX.pl (np. tytuł, cena, lokalizacja, link).
 - Możliwość rozbudowy o kolejne pola.
 - Modularna struktura Scrapy: `items`, `middlewares`, `settings`, `spiders`.
 
-## 🧰 Technologie
+##  Technologie
 
 - Python 3.x
 - Scrapy
 
-## 📦 Instalacja
+##  Instalacja
 
 1. Sklonuj repozytorium lub pobierz ZIP:
    git clone https://github.com/KarolStachura99/Scrapy.git
@@ -22,14 +22,14 @@ Projekt do scrapowania ogłoszeń ze strony [OLX.pl](https://www.olx.pl) przy u�
 2. Zainstaluj wymagane biblioteki:
    pip install scrapy
 
-## ⚙️ Użycie
+## Użycie
 
 1. Uruchom spidera:
    scrapy runspider olx_spider.py -o wyniki.json
 
    Dane zostaną zapisane w pliku `wyniki.json`.
 
-## 📁 Struktura projektu
+##  Struktura projektu
 ```
 Scrapy/
 ├── items.py         # Definicje pól danych
@@ -38,7 +38,7 @@ Scrapy/
 ├── settings.py      # Konfiguracja Scrapy
 └── README.md        # Ten plik
 ```
-## 📝 Przykład danych
+##  Przykład danych
 
 {
   "title": "Mieszkanie 2-pokojowe, 45m²",
@@ -47,10 +47,10 @@ Scrapy/
   "link": "https://www.olx.pl/d/oferta/mieszkanie-krakow-xyz"
 }
 
-## 🛡️ Uwaga prawna
+##  Uwaga prawna
 
 Ten projekt jest przeznaczony wyłącznie do celów edukacyjnych. Upewnij się, że przestrzegasz regulaminu OLX przed rozpoczęciem scrapowania danych z ich strony.
 
-## 👨‍💻 Autor
+##  Autor
 
 Karol Stachura – https://github.com/KarolStachura99
